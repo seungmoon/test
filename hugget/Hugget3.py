@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb 12 15:59:05 2018
+Hugget Model
 
-@author: uctpsp1
+
 """
 
 import sys 
