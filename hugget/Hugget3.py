@@ -37,11 +37,7 @@ class HuggetModel:
        self.MarkovMat = MarkovMat
        self.GridAsset = np.linspace(self.BoroLmt, self.aMax, self.NumGridAsset)
        
-       
-   def printAttr(self):
-       aSum = self.aMax + self.aMin
-       return aSum
-   
+         
    def IndSolve(self, rfree):
        GridAsset = self.GridAsset
        GridIncome = self.GridIncome
@@ -52,7 +48,7 @@ class HuggetModel:
        
        Cold = C
        dist = 9999
-       #Aprime = mesha
+       Aprime = mesha
        while (dist > self.tolerance):
            mu = mutil(C)
            emu = self.MarkovMat.dot(mu)
